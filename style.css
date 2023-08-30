@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
 .jumbotron {
     padding-top: 6rem;
     background-color: #e2edff;
@@ -17,8 +17,7 @@ section {
 }
 
 .container .navbar-brand {
-    font-family: 'Magneto', Georgia, 'Times New Roman', Times, serif;
-}
+    font-family: 'Teko', sans-serif;}
 
 .container .navbar-brand span {
     color: #ffb702f6;
