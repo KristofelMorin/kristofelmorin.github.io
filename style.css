@@ -17,7 +17,9 @@ section {
 }
 
 .container .navbar-brand {
-    font-family: 'Teko', sans-serif;}
+    font-family: 'Teko', sans-serif;
+    font-size: 24pt;
+}
 
 .container .navbar-brand span {
     color: #ffb702f6;
