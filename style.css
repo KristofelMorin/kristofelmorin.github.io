@@ -28,3 +28,41 @@ section {
 .display-4 {
     font-family: 'Comic Sans MS';
 }
+
+/* About section styles */
+#about {
+    padding: 60px 0;
+}
+
+#about .about-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+#about .about-content:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #about {
+        padding: 40px 0;
+    }
+    
+    #about .container {
+        padding: 0 20px;
+    }
+    
+    #about .row.justify-content-center {
+        margin: 0 10px;
+    }
+    
+    #about .about-content {
+        margin-bottom: 20px;
+    }
+
+}
