@@ -1,68 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
 .jumbotron {
-    padding-top: 6rem;
-    background-color: #e2edff;
+  padding-top: 6rem;
+  background-color: #e2edff;
 }
 
 #projects {
-    background-color: #e2edff;
+  background-color: #e2edff;
 }
 
 section {
-    scroll-margin-top: 10px;
+  scroll-margin-top: 10px;
 }
 
 .container {
-    font-family: 'Ebrima', Georgia, 'Times New Roman', Times, serif;
+  font-family: "Ebrima", Georgia, "Times New Roman", Times, serif;
 }
 
 .container .navbar-brand {
-    font-family: 'Teko', sans-serif;
-    font-size: 24pt;
+  font-family: "Teko", sans-serif;
+  font-size: 24pt;
 }
 
 .container .navbar-brand span {
-    color: #ffb702f6;
+  color: #ffb702f6;
 }
 
 .display-4 {
-    font-family: 'Comic Sans MS';
+  font-family: "Comic Sans MS";
 }
 
 /* About section styles */
 #about {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 #about .about-content {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    height: 100%;
-    transition: transform 0.3s ease;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: transform 0.3s ease;
 }
 
 #about .about-content:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    #about {
-        padding: 40px 0;
-    }
-    
-    #about .container {
-        padding: 0 20px;
-    }
-    
-    #about .row.justify-content-center {
-        margin: 0 10px;
-    }
-    
-    #about .about-content {
-        margin-bottom: 20px;
-    }
+  #about {
+    padding: 40px 0;
+  }
 
+  #about .container {
+    padding: 0 20px;
+  }
+
+  #about .row.justify-content-center {
+    margin: 0 10px;
+  }
+
+  #about .about-content {
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile text size reduction */
+@media (max-width: 576px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  #about h2,
+  #projects h2,
+  #contact h2 {
+    font-size: 1.5rem;
+  }
+
+  #about .about-content,
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+  }
 }
